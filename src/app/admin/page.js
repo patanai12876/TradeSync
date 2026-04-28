@@ -151,7 +151,7 @@ export default function AdminDashboard() {
               <p className="text-gray-600 text-sm">Platform Profit (24h)</p>
               <p className="text-2xl font-bold text-green-600">+$125K</p>
             </div>
-            <div className="border-l-4 border-teal-500 pl-4">>
+            <div className="border-l-4 border-teal-500 pl-4">
               <p className="text-gray-600 text-sm">New Registrations (24h)</p>
               <p className="text-2xl font-bold text-gray-900">42</p>
             </div>

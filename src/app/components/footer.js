@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-slate-50 border-t border-slate-200">
@@ -20,10 +22,10 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-bold text-slate-900 mb-4">Platform</h4>
             <ul className="space-y-3 text-sm text-slate-600">
-              <li><a href="/" className="hover:text-slate-900 transition">Home</a></li>
-              <li><a href="/dashboard" className="hover:text-slate-900 transition">Dashboard</a></li>
-              <li><a href="/deposit" className="hover:text-slate-900 transition">Deposit</a></li>
-              <li><a href="/withdraw" className="hover:text-slate-900 transition">Withdraw</a></li>
+              <li><Link href="/" className="hover:text-slate-900 transition">Home</Link></li>
+              <li><Link href="/dashboard" className="hover:text-slate-900 transition">Dashboard</Link></li>
+              <li><Link href="/deposit" className="hover:text-slate-900 transition">Deposit</Link></li>
+              <li><Link href="/withdraw" className="hover:text-slate-900 transition">Withdraw</Link></li>
             </ul>
           </div>
 
