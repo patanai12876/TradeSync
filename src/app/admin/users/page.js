@@ -1,10 +1,10 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import Card from "../../../components/Card";
-import Badge from "../../../components/Badge";
-import Modal from "../../../components/Modal";
-import Button from "../../../components/Button";
+import Card from "../../components/Card";
+import Badge from "../../components/Badge";
+import Modal from "../../components/Modal";
+import Button from "../../components/Button";
 import { MdSearch } from "react-icons/md";
 
 // Mock data
