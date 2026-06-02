@@ -1,11 +1,7 @@
 {
-  "buildCommand": "npm run build",
-  "installCommand": "npm install",
-  "outputDirectory": ".next",
-  "framework": "nextjs",
-  "env": {
-    "NEXT_PUBLIC_API_URL": "https://your-backend.vercel.app"
-  }
+  "buildCommand": "cd copytrading-website && npm install && npm run build",
+  "outputDirectory": "copytrading-website/.next",
+  "framework": "nextjs"
 }
 
 
