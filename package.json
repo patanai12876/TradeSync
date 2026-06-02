@@ -1,7 +1,12 @@
 {
+  "scripts": {
+    "build": "cd copytrading-website && npm install && npm run build",
+    "start": "cd copytrading-website && npm start"
+  },
   "dependencies": {
     "@nestjs/typeorm": "^10.0.2",
     "mysql2": "^3.11.5",
     "typeorm": "^0.3.20"
   }
 }
+
